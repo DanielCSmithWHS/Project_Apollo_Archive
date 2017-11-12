@@ -1,5 +1,5 @@
 # Project Apollo Archive
-Script written in python 2.7 to download the entire NASA's Project Apollo Archive hosted in flickr, with the original resolution. 
+Working off dieguico's original script written in 2.7, I am updating this script to work for Python 3.6.
 
 The script creates __number_of_threads__ asynchronous threads and each one downloads one picture. The pictures are stored in __destination_folder__. By default 4 threads are used, and the pictures are stored in the ~/Desktop/NASA_Apollo_Project/ folder, with ~ being expanded by the os module.
 
